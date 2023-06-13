@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/blog
+    url: jdbc:postgresql://localhost:5432/agenda_contatos
     username: postgres
-    password: password
+    password: admin
 
   sql:
     init:
