@@ -1,9 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/agenda_contatos
-    username: postgres
-    password: admin
-
-  sql:
-    init:
-      mode: always
