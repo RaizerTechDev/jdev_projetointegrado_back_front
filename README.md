@@ -1,146 +1,108 @@
-# Spring Blog
+***
 
-This is a sample blog application that I created to use as an example of how to take a Spring Boot application to production. 
-It's not enough to understand how to create applications, you need to understand how to take them to production. This document 
-will walk you through what this application is, how to run it and how to execute the tests associated with it.
+<div align="center">
 
-## About the Application 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1000&color=6035DF&center=true&vCenter=true&width=435&lines=Olá👋+sou+Rafael+Raizer)](https://git.io/typing-svg)
 
-This is a simple web application that exposes a REST API. This application uses Maven as the build tool and the current 
-LTS version of Java, 17. I hope to add more functionality to this application in the future but 
-for now this project uses the following dependencies: 
+<img height="120em" src="images/ImagemDevRafa.png"  align="center">
 
-- Spring Web
-- Spring Data JDBC
-- PostgreSQL Database
-- Spring Actuator
-- Testcontainers
+<a href="https://git.io/typing-svg" align="center"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=1000&color=120A2A&center=true&vCenter=true&width=435&lines=Desenvolvedor+Front+End+Júnior" alt="Typing SVG" /></a>  <img src="https://media.giphy.com/media/l1J9sBOqBIvnafnUc/giphy.gif" width="70">
 
-## Running the application
+***
+# <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="55"> Venho aqui apresentar <img src="https://media.giphy.com/media/LmqitTYGsNMiWu3VWO/giphy.gif" align="center" width="65"> 
 
-You can run this application from your favorite IDE or by running the following command:
+
+  # PROJETO INTEGRADO JDev Treinamentos
+
+## Lançado desafio a integração Back-End + Front-End, com a "Criação Página Web" - Tema Livre"!!!
+
+ ### Requisitos necessários:
+
+🎯 Banco de Dados <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```postgreSql``` 
+
+🎯 Front-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```JavaScript``` 
+
+🎯 Back-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```SpringBoot```
+
+🎯 IDE <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```Eclipse```
+
+🎯 Testes de APIs <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```Postman```
+
+ <br>
+
+# <div align="center">
+# <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="95" width="95"> 
+
+### [Clique aqui para acessar o Projeto](https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/)
+ 
+  <img src="images/AGENDA-CLIENTES.png" align="center" height="500em" width="100%" href="https://rafarz76dev-03-desafiostackx-web-3-0-vue-js.vercel.app">
+
+***
+<div align="left">
+  
+# Passo a Passo do Projeto (Back-End):
+### Este projeto usa:
+- `Maven` como ferramenta de construção;
+- `Java` na versão 11;
+- `Tomcat` na versão 10.0;
+- `PostgreSql` na versão 9.5.
+
+---
+### Executando o aplicativo:
+#### Na IDE `Eclipse`vai rodar <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="25"> Na porta => `http://localhost:8081/`
+---
+### Building for Production:
+#### Este aplicativo usa `JAR` como tipo de embalagem. Isso significa que você pode executar o seguinte comando no terminal para criar algo pronto para ser usado na produção.
 
 ```bash
-./mvnw spring-boot:run
+mvn clean package
 ```
-
-## Testing the application
-
-This application uses Junit 5 and [Tescontainers](https://www.testcontainers.org/). To run the tests you will need Docker 
-desktop installed and running. You need Docker to execute the tests because this application uses Testcontainers to spin 
-up PostgreSQL database. This allows us to test as close to production as possible on our development machines as well as 
-a clean and reproducible testing environment each time.
-
-## Building for Production 
-
-If you want to build an artifact that can be used in production you have 2 options. This application uses `JAR` as the 
-packaging type. This means that you can run the following command to create something that is ready to be used in production.
+---
+### Execução do Projeto  Spring com o  comando java -jar ::
+- Vai no caminho da pasta que foi criada e dentro vai copiar a pasta `target`, então no comando do terminal cola o `caminho` da pasta,
+- logo após dentro da pasta `target` vai copiar o arquivo em `jar` e cola no comando do terminal da seguinte forma:
 
 ```bash
-./mvnw clean package
+$ java -jar springboot-rest-api-sample-1.0.0-SNAPSHOT.jar  
 ```
 
-If you would like to create a Docker Image which can be used on a variety of platforms you can run the following command: 
+### No Postman para execução dos testes:
+#### <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="25"> Vai executar na porta => http://localhost:8081/`agenda_contatos+nomedasAPIs`
 
-```bash
-./mvnw spring-boot:build-image
-```
+***
+# Passo a Passo do Projeto (Front-End): 
 
-## Spring to Production 
+### Este projeto usa:
+- `[Bootstrap CSS]`(https://getbootstrap.com/docs/4.0/components/forms/) para o formulário de pesquisa;
+- `[JQuery`](https://code.jquery.com/jquery-3.6.0.min.js) como framework;
+- `Ajax`para consumo das APIs.
 
-This is a collection of the different platforms that I have pushed this application to. I will also include any information 
-that might help you out and any related tutorials I have created for that platform. The idea for this project came from an
-episode of [Spring Office Hours](https://tanzu.vmware.com/developer/tv/spring-office-hours/0015/) in which DaShaun and I 
-discussed some different options for taking your Spring Boot application to production. 
+### Executando projeto em Front-End:
 
-![Spring Office Hours: Episode 15 - Spring to Production](https://tanzu.vmware.com/developer/tv/spring-office-hours/0015/images/0015.png)
+#### <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="25"> Vai no navegadora e digita: http://localhost:8081/agenda_contatos
 
-### Local Development
+---
+# Implantação de serviço deploy:
+### Este projeto usa:
+- `Railway.app`.
 
-When working on this application locally you will need Docker Desktop installed. To start an instance of PostgreSQL run the Docker
-Compose file located in the root of the project. 
-
-### Azure Spring Apps
-
-Azure Spring Apps is a platform as a service (PaaS) for Spring developers. Manage the lifecycle of your Spring Boot applications with 
-comprehensive monitoring and diagnostics, configuration management, service discovery, CI/CD integration, and blue-green deployments.
-
-[https://azure.microsoft.com/en-us/products/spring-apps](https://azure.microsoft.com/en-us/products/spring-apps)
-
-#### GitHub Actions 
-
-You could create a new artifact each time and deploy it to Azure Spring Apps using the Azure CLI. This can be tedious though and if you want to deploy a new version of your application each time a commit is made or merged into the master branch you can use GitHub actions. The following is a workflow that I am currently using to do that. 
-
-```yaml
-name: AzureSpringCloud
-on: push
-env:
-  ASC_PACKAGE_PATH: ${{ github.workspace }}
-  JAVA_VERSION: 17
-  AZURE_SUBSCRIPTION: YOUR_SUBSCRIPTION_ID_HERE
-
-jobs:
-  deploy_to_production:
-    runs-on: ubuntu-latest
-    name: deploy to production with artifact
-    steps:
-      - name: Checkout Github Action
-        uses: actions/checkout@v2
-        
-      - name: Set up JDK ${{ env.JAVA_VERSION }}
-        uses: actions/setup-java@v1
-        with:
-          java-version: ${{ env.JAVA_VERSION }}
-
-      - name: maven build, clean
-        run: |
-          mvn clean package -DskipTests
-
-      - name: Login via Azure CLI
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-      - name: deploy to production with artifact
-        uses: azure/spring-cloud-deploy@v1
-        with:
-          azure-subscription: ${{ env.AZURE_SUBSCRIPTION }}
-          action: Deploy
-          service-name: spring-blog
-          app-name: spring-blog
-          use-staging-deployment: false
-          package: ${{ env.ASC_PACKAGE_PATH }}/**/*.jar
-```
-
-### Railway
-
-Bring your code, we'll handle the rest. Made for any language, for projects big and small. [Railway](https://railway.app/) 
-is the cloud that takes the complexity out of shipping software.
-
-Create a new empty project in Railway and start by creating a PostgreSQL database. Once you have that created you can create
-a new project from GitHub. You can use the following environment variables based on the database you just created. 
+#### Criando um banco de dados `PostgreSQL`,copiando as variáveis ​​de ambiente do banco, criou- se o projeto do `git repositório` com base nessas variáveis, assim colando no editor RAW:
 
 ```properties
-spring_profiles_active=prod
-PROD_DB_HOST=containers-us-west-140.railway.app
-PROD_DB_PORT=5810
-PROD_DB_NAME=railway
-PROD_DB_PASSWORD=edqfoLxqTc0S3Lr0YCBk
-PROD_DB_USERNAME=postgres
+- spring_profiles_active=prod
+- PROD_DB_HOST=containers-us-west-80.railway.app
+- PROD_DB_PORT=5481
+- PROD_DB_NAME=railway
+- PROD_DB_PASSWORD=3jEUMjlnmqIi7b0xVHwR
+- PROD_DB_USERNAME=postgres
 ```
 
-You don't need GitHub Actions or any type of pipeline for this setup because Railway handles this for you. Simply push your code to GitHub
-and a new build and deploy will be triggered. If you want to disable this functionality you can from the settings of your project
-on Railway. 
+<br>
+  
+---
+### Gostou, então já clica na 🌟
 
-### Coming Soon
 
-- [https://www.heroku.com](https://www.heroku.com/)
-- [https://render.com](https://render.com/)
-- [https://fly.io](https://fly.io/)
-- [https://porter.run](https://porter.run/)
-- [https://www.cloudfoundry.org/](https://www.cloudfoundry.org/)
-- [https://www.digitalocean.com](https://www.digitalocean.com/)
-- [https://aws.amazon.com](https://aws.amazon.com/)
-- [https://cloud.google.com](https://cloud.google.com/)
-- [OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift)
+  
+
+
