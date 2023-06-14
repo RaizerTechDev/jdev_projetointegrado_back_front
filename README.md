@@ -28,11 +28,8 @@
 
 🎯 Testes de APIs <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```Postman```
 
- <br>
-
 # <div align="center">
-# <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="95" width="95"> 
-
+# <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="75" width="75"> 
 ### [Clique aqui para acessar o Projeto](https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/)
  
   <img src="images/AGENDA-CLIENTES.png" align="center" height="500em" width="100%" href="https://rafarz76dev-03-desafiostackx-web-3-0-vue-js.vercel.app">
