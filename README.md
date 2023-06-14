@@ -77,9 +77,13 @@ $ java -jar springboot-rest-api-sample-1.0.0-SNAPSHOT.jar
 - `[JQuery`](https://code.jquery.com/jquery-3.6.0.min.js) como framework;
 - `Ajax`para consumo das APIs.
 
-### Executando projeto em Front-End:
+### Executando projeto no `servidor localhost` em Front-End:
 
-#### <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="25"> Vai no navegadora e digita: http://localhost:8081/agenda_contatos
+#### <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="25"> Vai no navegador e digita: http://localhost:8081/agenda_contatos
+
+### Executando projeto com `Deploy`:
+
+#### <img src="https://media.giphy.com/media/XwcRflO9HD0Sk6RaRM/giphy.gif" align="center" height="25" width="25"> https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/
 
 ---
 # Implantação de serviço deploy:
