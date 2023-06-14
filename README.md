@@ -14,7 +14,7 @@
 
   # PROJETO INTEGRADO JDev Treinamentos
 
-## Lançado desafio a integração Back-End + Front-End, com a "Criação Página Web" - Tema Livre"!!!
+## Lançado desafio a integração Back-End + Front-End, com a "Criação Página Web"!!!
 
  ### Requisitos necessários:
 
@@ -32,7 +32,7 @@
 # <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="75" width="75"> 
 ### [Clique aqui para acessar o Projeto](https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/)
  
-  <img src="images/AGENDA-CLIENTES.png" align="center" height="500em" width="100%" href="https://rafarz76dev-03-desafiostackx-web-3-0-vue-js.vercel.app">
+  <img src="images/AGENDA-CLIENTES.png" align="center" height="500em" width="100%" href="https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/">
 
 ***
 <div align="left">
