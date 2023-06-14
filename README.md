@@ -70,8 +70,8 @@ $ java -jar springboot-rest-api-sample-1.0.0-SNAPSHOT.jar
 # Passo a Passo do Projeto (Front-End): 
 
 ### Este projeto usa:
-- `[Bootstrap CSS]`(https://getbootstrap.com/docs/4.0/components/forms/) para o formulário de pesquisa;
-- `[JQuery`](https://code.jquery.com/jquery-3.6.0.min.js) como framework;
+- `[Bootstrap CSS]` (https://getbootstrap.com/docs/4.0/components/forms/) para o formulário de pesquisa;
+- `[JQuery]` (https://code.jquery.com/jquery-3.6.0.min.js) como framework;
 - `Ajax`para consumo das APIs.
 
 ### Executando projeto no `servidor localhost` em Front-End:
