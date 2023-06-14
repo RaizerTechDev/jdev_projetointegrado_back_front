@@ -37,16 +37,16 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>     			 
-		</dependency>		 		
-		
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
-		</dependency>		
-			
-			<dependency>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
 			<scope>test</scope>
@@ -80,9 +80,15 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>42.2.0</version><!--Versão mais recente-->
+			<version>42.2.0</version><!--Versão mais recente -->
 		</dependency>
-		
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -91,7 +97,7 @@
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
-					 <version>2.1.1.RELEASE</version>
+					<version>2.1.1.RELEASE</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
