@@ -14,22 +14,22 @@
 
   # PROJETO INTEGRADO JDev Treinamentos
 
-## Lançado desafio a integração Back-End + Front-End, com a "Criação Página Web"!!!
+## Na continuação do curso com mais um desafio a ```integração Back-End + Front-End```, aperfeiçoando seus conhecimentos.
 
  ### Requisitos necessários:
 
-🎯 Banco de Dados <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```postgreSql``` 
+🎯 Banco de Dados <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```postgreSql``` 
 
-🎯 Front-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```JavaScript``` 
+🎯 Front-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```JavaScript``` 
 
-🎯 Back-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```SpringBoot```
+🎯 Back-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```SpringBoot```
 
-🎯 IDE <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```Eclipse```
+🎯 IDE <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Eclipse```
 
-🎯 Testes de APIs <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="35" width="35"> ```Postman```
+🎯 Testes de APIs <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Postman```
 
 # <div align="center">
-# <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="75" width="75"> 
+# <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="55" width="55"> 
 ### [Clique aqui para acessar o Projeto](https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/)
  
   <img src="images/AGENDA-CLIENTES.png" align="center" height="500em" width="100%" href="https://rafarz76dev-pesquisa-satisfacao.up.railway.app/agenda_contatos/">
