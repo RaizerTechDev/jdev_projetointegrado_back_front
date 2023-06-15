@@ -26,7 +26,7 @@
 
 🎯 IDE <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Eclipse```
 
-🎯 Testes de APIs <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Postman```
+🎯 APIs <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Postman``` & ```Ajax```
 
 # <div align="center">
 # <img src="https://media.giphy.com/media/9TFBxN300KpCUI6sBD/giphy.gif" align="center" height="55" width="55"> 
