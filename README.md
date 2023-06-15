@@ -14,7 +14,7 @@
 
   # PROJETO INTEGRADO JDev Treinamentos
 
-## Na continuação do curso para  aperfeiçoar meus conhecimentos, lançado mais um desafio da ```integração Back-End + Front-End```!!!
+## Na continuação do curso para  aperfeiçoar meus conhecimentos em mais um desafio da ```integração Back-End + Front-End```!!!
 
  ### Requisitos necessários:
 
