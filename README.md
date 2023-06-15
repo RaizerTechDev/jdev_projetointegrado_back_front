@@ -22,7 +22,7 @@
 
 🎯 Front-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```JavaScript``` 
 
-🎯 Back-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```SpringBoot```
+🎯 Back-End <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Java```
 
 🎯 IDE <img src="https://media.giphy.com/media/fXQqNrqKATCNwq6zin/giphy.gif" align="center" height="25" width="25"> ```Eclipse```
 
@@ -42,7 +42,9 @@
 - `Maven` como ferramenta de construção;
 - `Java` na versão 11;
 - `Tomcat` na versão 10.0;
-- `PostgreSql` na versão 9.5.
+- `PostgreSql` na versão 9.5;
+- `Spring Boot`como framework.
+
 
 ---
 ### Executando o aplicativo:
