@@ -92,12 +92,12 @@ $ java -jar springboot-rest-api-sample-1.0.0-SNAPSHOT.jar
 #### Criando um banco de dados `PostgreSQL`,copiando as variáveis ​​de ambiente do banco, criou- se o projeto do `git repositório` com base nessas variáveis, assim colando no editor RAW:
 
 ```properties
-- spring_profiles_active=prod
-- PROD_DB_HOST=containers-us-west-80.railway.app
-- PROD_DB_PORT=5481
-- PROD_DB_NAME=railway
-- PROD_DB_PASSWORD=3jEUMjlnmqIi7b0xVHwR
-- PROD_DB_USERNAME=postgres
+spring_profiles_active=prod
+PROD_DB_HOST=containers-us-west-132.railway.app
+PROD_DB_PORT=8044
+PROD_DB_NAME=railway
+PROD_DB_PASSWORD=CK6yRNZW8Aa9Q2ncqgdu
+PROD_DB_USERNAME=postgres
 ```
 
 <br>
