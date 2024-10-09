@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "src/main/java/br/com/agenda_contatos/Application.java", 
+        "use": "@vercel/java"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "src/main/java/br/com/agenda_contatos/$1.java" 
+      }
+    ]
+  }
+  
