@@ -93,10 +93,10 @@ $ java -jar springboot-rest-api-sample-1.0.0-SNAPSHOT.jar
 
 ```properties
 spring_profiles_active=prod
-PROD_DB_HOST=containers-us-west-132.railway.app
-PROD_DB_PORT=8044
+PROD_DB_HOST=postgres.railway.internal
+PROD_DB_PORT=5432
 PROD_DB_NAME=railway
-PROD_DB_PASSWORD=CK6yRNZW8Aa9Q2ncqgdu
+PROD_DB_PASSWORD=aOOTuGAXSlIXqoucjJhXwfFKSJjePynZ
 PROD_DB_USERNAME=postgres
 ```
 
