@@ -1,6 +1,8 @@
 package br.com.agenda_contatos.model;
 
 import java.io.Serializable;
+import java.time.LocalDate; // Para melhor manuseio de datas
+import java.time.LocalTime; // Para melhor manuseio de horas
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,84 +11,92 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
-@Entity //Annotation
+@Entity
 @Table(name = "TB_PESQUISA_SATISFACAO")
-
 @SequenceGenerator(name = "seq_usuario", sequenceName = "seq_usuario", allocationSize = 1, initialValue = 1)
 public class Usuario implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_usuario") // Gerador de Sequencia
-	private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_usuario")
+    private Long id;
 
-	private String nome;
+    @NotBlank(message = "O nome é obrigatório")
+    private String nome;
 
-	private String telefone;
+    @Size(max = 15, message = "O telefone deve ter no máximo 15 caracteres")
+    private String telefone;
 
-	private String email;
+    @Email(message = "Email inválido")
+    private String email;
 
-	private String anotacao;
+    private String anotacao;
 
-	private String data;
+    @Column(name = "data") // Usando Column para definir o nome da coluna se necessário
+    private LocalDate data; // Usando LocalDate para melhor manipulação de data
 
-	private String hora;
+    @Column(name = "hora") // Usando Column para definir o nome da coluna se necessário
+    private LocalTime hora; // Usando LocalTime para melhor manipulação de hora
 
-	public Long getId() {
-		return id;
-	}
+    // Getters e Setters
+    public Long getId() {
+        return id;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public String getNome() {
-		return nome;
-	}
+    public String getNome() {
+        return nome;
+    }
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-	public String getTelefone() {
-		return telefone;
-	}
+    public String getTelefone() {
+        return telefone;
+    }
 
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
-	}
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
 
-	public String getEmail() {
-		return email;
-	}
+    public String getEmail() {
+        return email;
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
-	public String getAnotacao() {
-		return anotacao;
-	}
+    public String getAnotacao() {
+        return anotacao;
+    }
 
-	public void setAnotação(String anotacao) {
-		this.anotacao = anotacao;
-	}
+    public void setAnotacao(String anotacao) {
+        this.anotacao = anotacao;
+    }
 
-	public String getData() {
-		return data;
-	}
+    public LocalDate getData() {
+        return data;
+    }
 
-	public void setData(String data) {
-		this.data = data;
-	}
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
 
-	public String getHora() {
-		return hora;
-	}
+    public LocalTime getHora() {
+        return hora;
+    }
 
-	public void setHora(String hora) {
-		this.hora = hora;
-	}
+    public void setHora(LocalTime hora) {
+        this.hora = hora;
+    }
 }
